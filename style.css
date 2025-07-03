@@ -1,5 +1,89 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .container{
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 110vh;
+            background-color: #041367;
+            padding: 0 40x;
+        }
+
+        .header{
+            display: flex;
+            justify-content: space-between;
+            padding: 40px 80px;
+        }
+
+        .head2{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 430px;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 600;
+            gap: 15px;
+        }
+
+        .head2 a{
+            text-decoration: none;
+            color: white;
+        }
+        
+       
+
+        .head3>button{
+            background-color: #fbc61d;
+            border-radius: 100px;
+            height: 50px;
+            width: 150px;
+            border: none;
+            font-size: 15px;
+        }
+
+         .head31>button{
+            background-color: #fbc61d;
+            border-radius: 50px;
+            height: 70px;
+            width: 200px;
+            border: none;
+            font-size: 18px;
+            margin-top: 45px;
+            color: #041367;
+        }
+        .main{
+            height: 723px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 40px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: #041367;
+            background-image: url(image.png);
+            background-position-x: center;
+            background-position-y: 50% ;
+            background-repeat: no-repeat;
+            background-size: 55%;
+        }
+
+        .main1{
+            color: white;
+        }
+
+        #h1 {
+            font-size: 70px;
+            font-weight: 300;
+            line-height: 44px;
+            padding-bottom: 30px;
+        }
+
+        #strong{
+            font-size: 65px;
+            font-weight: 600;
+            line-height: 44px;
+        }
