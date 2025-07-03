@@ -25,6 +25,10 @@
                 color: var(--second-color);
             }
 
+            #main{
+                background-size: 75%;
+            }
+
             
         }
 
