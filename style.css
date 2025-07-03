@@ -104,6 +104,13 @@
             border: none;
             font-size: 15px;
             margin-left: 40px;
+            transition: all 0.3s ease;
+            transform: scale(1);
+        }
+
+        .head3>button:hover{
+            transform: scale(1.3);
+            background-color: #ff9900;
         }
 
         .head444{
@@ -131,7 +138,7 @@
             color: var(--second-color);
         }
 
-         .head31>button{
+        .head31>button{
             background-color: var(--third-color);
             border-radius: 50px;
             height: 70px;
@@ -140,7 +147,13 @@
             font-size: 18px;
             margin-top: 45px;
             color: var(--first-color);
+            transition: all 2s ease;
         }
+
+        .head31>button:hover{
+            transform: rotateY(360deg);
+        }
+
         .main{
             height: 100%;
             display: flex;
